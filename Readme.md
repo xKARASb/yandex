@@ -25,9 +25,7 @@ go run ./cmd/main/main.go
 
 ## Примеры использования
 
-
-<details><summary>
-### Пример 1 </summary>
+Пример 1
 #### **url:** ```http://localhost:8080/api/v1/calculate```
 #### **Тело:**
 ```
@@ -42,9 +40,8 @@ go run ./cmd/main/main.go
     "result": "10"
 }
 ```
-</details>
-<details><summary>
-### Пример 2 </summary>
+
+### Пример 2
 #### **url:** ```http://localhost:8080/api/v1/calculate```
 #### **Тело:**
 ```
@@ -58,19 +55,15 @@ go run ./cmd/main/main.go
 {"error": "Expression is not valid"}
 
 ```
-</details>
-<details>
-<summary>
+
 ### Пример 3
-</summary>
 #### **url:** ```http://localhost:8080/api/v1/calculate```
 #### **Тело:**
 ```
 Some data 
 ```
 #### **Ответ**
-***satus code: 422***
+***satus code: 500***
 ```
 {"error": "Internal server error"}
 ```
-</deailts>
